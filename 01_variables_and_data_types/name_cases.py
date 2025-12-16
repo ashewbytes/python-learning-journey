@@ -1,0 +1,17 @@
+name = 'ashu'
+name = name.title()
+print(name)
+name = name.lower()
+print(name)
+name = name.upper()
+print(name)
+name = name.rstrip()
+print(name)
+name = name.lstrip()
+print(name)
+name = name.strip()
+print(name)
+name = name.capitalize()
+print(name)
+
+print(f"Hey {name.title()}, How are you?")
