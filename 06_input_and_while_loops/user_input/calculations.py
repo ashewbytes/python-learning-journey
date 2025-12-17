@@ -145,4 +145,4 @@ rate = float(input("Enter Rate: "))
 time = float(input("Enter Time: "))
 simple_interest = (principal * rate * time) / 100
 
-print(f"Simple interest is {simple_interest:.2f}")
+print(f"Simple interest is {simple_interest:.2f}").
