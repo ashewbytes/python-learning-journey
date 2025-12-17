@@ -137,3 +137,12 @@ breadth = int(input("Enter breadth: "))
 perimeter = 2  * (length + breadth)
 
 print(f"Perimeter of rectangle is {perimeter}")
+
+# simple interest
+
+principal = float(input("Enter Principle: "))
+rate = float(input("Enter Rate: "))
+time = float(input("Enter Time: "))
+simple_interest = (principal * rate * time) / 100
+
+print(f"Simple interest is {simple_interest:.2f}")
